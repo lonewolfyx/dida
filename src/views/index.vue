@@ -25,19 +25,6 @@
 import KanbanBoardItem from '@/components/Kanban/KanbanBoardItem/index.vue';
 import {faker} from '@faker-js/faker';
 
-const generateMessage = () => {
-    return {
-        message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. ',
-        avatar: `https://picsum.photos/id/${Math.round(Math.random() * 100)}/200/200`,
-    }
-}
-// const items = []
-// for (let i = 0; i < 1; i++) {
-//     items.push({
-//         id: i,
-//         ...generateMessage(),
-//     })
-// }
 
 const items = Array.from({length: 20}, () => {
     return {

@@ -71,18 +71,7 @@ defineOptions({
 })
 
 const {items} = defineProps(['items'])
-// const items = [
-//     {
-//         id: useId(),
-//         title: '《NestJs》 中间件学习',
-//         tags: ['Nestjs']
-//     },
-//     {
-//         id: useId(),
-//         title: 'Data Analytics podcast',
-//         used: true
-//     }
-// ]
+
 const isCollapsed = ref(false);
 
 const collapsedHandle = (e) => {
